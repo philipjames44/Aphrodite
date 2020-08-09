@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 // from https://www.youtube.com/watch?v=ul1tJErDEkE
 @RestController
-@RequestMapping("/hello")
+@RequestMapping("/*")
 public class HelloController {
     @GetMapping
     public String hello() {
