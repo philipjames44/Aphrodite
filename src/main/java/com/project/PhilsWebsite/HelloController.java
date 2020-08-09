@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String hello() {
-        return "Hello Morty, lets go, 20 min adventure, in and out.";
+        return "Hello Morty, lets go, 20 min adventure, in and out.\n\n" +
+                "Lets see if code deploy *burp* works Morty.";
     }
 }
