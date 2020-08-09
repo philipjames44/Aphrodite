@@ -1,5 +1,5 @@
 # adapted from https://stackoverflow.com/questions/62009507/buildspec-yml-file-for-spring-boot-project
-version: 0.1
+version: 0.2
 phases:
   install:
     runtime-versions:
