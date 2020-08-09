@@ -10,12 +10,12 @@ phases:
   build:
     commands:
     - echo Build started on `date`
+    - mvn -Pprod package -X
   post_build:
     commands:
     - echo Build completed on `date`
-    - mvn package
-    - mv target/PhilsWebsite-0.0.1-SNAPSHOT.war PhilsWebsite-0.0.1-SNAPSHOT.war
+    - mv target/PhilsWebsite-0.0.1-SNAPSHOT.war ROOT.war
 artifacts:
   files:
-  - PhilsWebsite-0.0.1-SNAPSHOT.war
+    - ROOT.war
 #  - .ebextensions/**/*
