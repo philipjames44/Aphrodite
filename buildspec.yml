@@ -1,5 +1,6 @@
 # adapted from https://stackoverflow.com/questions/62009507/buildspec-yml-file-for-spring-boot-project
-# Rename to root.war to setup for code deploy correctly
+# Rename to root.war to setup for code deploy correctly,  if you dont rename to root as per below command,
+# it won't work (if youre using war files).
 version: 0.2
 phases:
   install:
