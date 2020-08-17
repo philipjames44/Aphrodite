@@ -1,6 +1,21 @@
-html {
-    background: url('../media/background.mp4') no-repeat center center fixed;
-    background-size: cover;
+#video-container {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 100%;
+
+    /* Set up proportionate scaling */
+    height: 100%;
+    width: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* TODO: Center */
+
+    /* Send to the back */
+    z-index: -1;
 }
 
 p {
