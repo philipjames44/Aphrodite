@@ -30,4 +30,5 @@ on youtube if you'd like to see how to do this yourself: https://www.youtube.com
 
 ## TODOs
 * Make the website not look like shit and deicde what to show lol
-* Add a cool background, maybe something animated from here? https://www.google.com/search?q=high+res+website+gif+backgrounds&client=safari&rls=en&tbm=isch&source=iu&ictx=1&fir=LVRikgo32Cac1M%252CwIEXgf4zUj96DM%252C_&vet=1&usg=AI4_-kTPHJZHKKvGR7amOpE_FKTbxLd2Sg&sa=X&ved=2ahUKEwi8y-mM36DrAhWnFjQIHcjBD6QQ9QEwAXoECAoQFA&biw=1680&bih=987#imgrc=sshxyFeAKEa9xM
+* Add favicon
+* Add content
