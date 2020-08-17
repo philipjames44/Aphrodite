@@ -12,7 +12,9 @@
     top: 0;
     left: 0;
 
-    /* TODO: Center */
+    /* Center */
+    margin-left: 50vw;
+    transform: translate(-50%);
 
     /* Send to the back */
     z-index: -1;
