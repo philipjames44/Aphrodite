@@ -13,8 +13,14 @@
 
 /* Expand to full size */
 html, body {
+    margin: 0px;
+
     height: 100%;
     min-height: 100%;
+
+    width: 100%;
+    min-width: 100%;
+    overflow: hidden;
 }
 
 #video-container {
@@ -27,7 +33,7 @@ html, body {
 
     /* Set up proportionate scaling */
     height: 100%;
-    width: auto;
+    /*width: auto;/
 
     /* Set up positioning */
     position: fixed;
@@ -44,52 +50,38 @@ html, body {
 
 /* some pretty neat color contrast stuff: https://www.viget.com/articles/color-contrast/ */
 
-#sidebar {
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-
+#content-wrapper {
     height: 100%;
     min-height: 100%;
 
-    width: 30%;
-    min-width= 30%;
+    width: 100%;
+    min-width: 100%;
 
-
-    color: #3B4040;
-    background-color: #B5C687;
-
-    opacity: 0.75;
-
-    font-family: 'geomanistregular';
-    font-size: 30px;
-}
-
-#contact-wrapper {
-    /* vertically center content */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    min-height: 100%;
 }
 
-#contact-header {
-    min-width: 35%;
-    min-height: 20%;
+#content {
+    display: inline-block;
 
-    font-size: 30px;
-    text-align: center;
-    font-family: 'geomanistregular';
+    height: 100%;
+    min-height: 100%;
+
+    width: 45%;
+    min-width: 45%;
+
 
     color: #3B4040;
     background-color: #B5C687;
 
-    border-radius: 25px;
+    opacity: .85;
 
-    padding-top: 10px;
+    font-family: 'geomanistregular';
+    font-size: 30px;
 
-    opacity: 0.75;
-   /*-webkit-text-stroke: 1px black;*/
-}
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+    overflow:hidden;
+}}
