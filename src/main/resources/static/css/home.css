@@ -97,3 +97,31 @@ html, body {
 #intro {
     padding: 60px 30px 60px 30px;
 }
+
+@media only screen and (max-width: 900px) {
+    #hello {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    #hello-subtitle{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #content {
+        height: 62%;
+        min-height: 62%;
+
+        width: 100%;
+        min-width: 100%;
+
+        padding: 20px 20px 0px 20px;
+
+        font-size: 1.1rem;
+    }
+
+    #intro {
+        padding: 20px 20px 20px 20px;
+    }
+}

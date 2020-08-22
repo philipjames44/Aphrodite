@@ -29,6 +29,5 @@ I use AWS Certificate manager attached to a load balancer on my EC2 instance. Th
 on youtube if you'd like to see how to do this yourself: https://www.youtube.com/watch?v=bWPTq8z1vFY&list=PLUwLT1owqy0TSAOaM2mXv3gdsEAqHMQF1&index=4&t=619s
 
 ## TODOs
-* Fix mobile view
 * Add favicon
 * SEO
